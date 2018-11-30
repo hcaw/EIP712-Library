@@ -8,7 +8,7 @@
 
 pragma solidity 0.5.0;
 
-contract LibEIP712 {
+contract EIP712Sig {
 
   // EIP191 header for EIP712 prefix (https://eips.ethereum.org/EIPS/eip-191)
   string constant internal EIP191_HEADER = "\x19\x01";
